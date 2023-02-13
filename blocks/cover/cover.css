@@ -1,0 +1,4 @@
+.cover {
+  grid-area: cover;
+  outline: 1px solid salmon;
+}

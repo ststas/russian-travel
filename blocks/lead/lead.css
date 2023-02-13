@@ -1,0 +1,4 @@
+.lead {
+  grid-area: lead;
+  outline: 1px solid salmon;
+}

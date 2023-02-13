@@ -1,0 +1,4 @@
+.header {
+  grid-area: header;
+  outline: 1px solid salmon;
+}

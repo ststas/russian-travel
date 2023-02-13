@@ -1,0 +1,4 @@
+.intro {
+  grid-area: intro;
+  outline: 1px solid salmon;
+}
