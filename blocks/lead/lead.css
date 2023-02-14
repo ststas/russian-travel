@@ -9,7 +9,6 @@
   .lead {
     width: 320px;
     margin: 48px 0 0;
-    outline: 1px solid red;
   }  
 }
 
@@ -17,7 +16,6 @@
   .lead {
     width: 768px;
     margin: 48px 0 0;
-    outline: 1px solid greenyellow;
   } 
 }
 
@@ -25,7 +23,6 @@
   .lead {
     width: 928px;
     margin: 48px 48px 0;
-    outline: 1px solid blueviolet;
   }
 }
 
@@ -33,6 +30,5 @@
   .lead {
     width: 984px;
     margin: 56px 148px 0;
-    outline: 1px solid teal;
   }
 }
