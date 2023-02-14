@@ -15,7 +15,7 @@
   .footer {
     width: 720px;
     height: 18px;
-    margin: 88px 24px 24px;
+    margin: 88px auto 24px;
     outline: 1px solid greenyellow;
   } 
 }
@@ -24,7 +24,7 @@
   .footer {
     width: 928px;
     height: 18px;
-    margin: 92px 48px 24px;
+    margin: 92px auto 24px;
     outline: 1px solid blueviolet;
   }
 }
@@ -33,7 +33,7 @@
   .footer {
     width: 1184px;
     height: 18px;
-    margin: 92px 48px 24px;
+    margin: 92px auto 24px;
     outline: 1px solid teal;
   }
 }
