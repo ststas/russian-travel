@@ -1,10 +1,8 @@
 .page {
   min-width: 320px;
-  height: 100vh;
   margin: 0 auto;
   font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
   display: grid;
-  grid-auto-flow: column;
   background-color: #2A2C2F;
   grid-template-areas: 
   "header"
@@ -13,6 +11,8 @@
   "photo-grid"
   "places"
   "cover"
-  "footer"
-  ;
+  "footer";
+  justify-content: center;
+  align-content: start;
+  border: 1px solid red;
 }

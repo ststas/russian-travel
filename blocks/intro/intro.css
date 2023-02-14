@@ -1,4 +1,39 @@
 .intro {
   grid-area: intro;
-  outline: 1px solid salmon;
+}
+
+@media screen and (min-width: 320px) {
+  .intro {
+    width: 288px;
+    height: 754px;
+    margin: 64px 16px 0;
+    outline: 1px solid red;
+  }  
+}
+
+@media screen and (min-width: 768px) {
+  .intro {
+    width: 720px;
+    height: 429px;
+    margin: 88px 24px 0;
+    outline: 1px solid greenyellow;
+  } 
+}
+
+@media screen and (min-width: 1024px) {
+  .intro {
+    width: 690px;
+    height: 429px;
+    margin: 92px 286px 0 48px;
+    outline: 1px solid blueviolet;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .intro {
+    width: 690px;
+    height: 429px;
+    margin: 92px 442px 0 148px;
+    outline: 1px solid teal;
+  }
 }
