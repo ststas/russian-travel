@@ -2,8 +2,8 @@
   min-width: 320px;
   margin: 0 auto;
   font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
-  display: grid;
   background-color: #2A2C2F;
+  display: grid;
   grid-template-areas: 
   "header"
   "lead"
@@ -13,6 +13,5 @@
   "cover"
   "footer";
   justify-content: center;
-  align-content: start;
   border: 1px solid red;
 }

@@ -1,7 +1,7 @@
 .header {
   grid-area: header;
-  display: flex;
-  flex-flow: row;
+  display: grid;
+  grid-auto-flow: column;
   position: relative;
   justify-content: end;
 }
