@@ -1,7 +1,8 @@
 .photo-grid {
   grid-area: photo-grid;
-  display: grid;
+  display: grid;  
 }
+
 
 @media screen and (min-width: 320px) {
   .photo-grid {

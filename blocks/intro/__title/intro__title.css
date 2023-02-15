@@ -1,23 +1,14 @@
 .intro__title {
+  width: 100%; 
+  /*Здравствуйте, Антон. Подскажите, пожалуйста, можно ли использовать для этого элемента 
+  ширину в 100% от родительского блока, а не задавать отдельно для каждого разрешения, 
+  при условии, что ширина этого элемента совпадает с родительским блоком и 
+  значения его ширины меняются также как у родительского блока?
+  Такой же вопрос для остальных элементов этого блока*/
   margin: 0;
-  width: 100%;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
   color: #FFFFFF;
   text-align: left;
-}
-
-@media screen and (min-width: 320px) {
-  .intro__title {
-    font-size: 32px;
-    line-height: 35px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .intro__title {
-    font-size: 54px;
-    line-height: 58px;
-  }
 }
