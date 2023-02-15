@@ -1,8 +1,5 @@
 .lead {
   grid-area: lead;
-  /*display: grid;
-  grid-auto-flow: row;
-  justify-items: center;*/
 }
 
 @media screen and (min-width: 320px) {
