@@ -1,39 +1,28 @@
 .cover {
   grid-area: cover;
+  position: relative;
 }
 
 @media screen and (min-width: 320px) {
   .cover {
-    width: 320px;
-    height: 200px;
     margin: 66px 0 0;
-    outline: 1px solid red;
   }  
 }
 
 @media screen and (min-width: 768px) {
   .cover {
-    width: 768px;
-    height: 480px;
     margin: 90px 0 0;
-    outline: 1px solid greenyellow;
   } 
 }
 
 @media screen and (min-width: 1024px) {
   .cover {
-    width: 1024px;
-    height: 640px;
-    margin: 92px 0px 0;
-    outline: 1px solid blueviolet;
+    margin: 92px 0 0;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .cover {
-    width: 1184px;
-    height: 740px;
     margin: 92px 48px 0;
-    outline: 1px solid teal;
   }
 }
