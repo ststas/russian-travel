@@ -5,8 +5,7 @@
   font-weight: 400;
   color: #FFFFFF;
   text-align: right;
-  text-decoration: none;
-  
+  text-decoration: none; 
 }
 
 .header__lang-link:last-of-type {
@@ -19,7 +18,7 @@
   transition: 0.2s;
 }
 
-.header__lang-link:focus {
+.header__lang-link:active {
   text-decoration: underline;
 }
 

@@ -17,4 +17,5 @@
 .cover__link:hover::after { 
   cursor: pointer;
   opacity: 0.18;
+  transition: 0.4s;
 }
